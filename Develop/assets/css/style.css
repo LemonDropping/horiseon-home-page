@@ -1,8 +1,8 @@
+/* Universal Selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
@@ -21,10 +21,24 @@ h1 {
     font-size: 48px;
 }
 
+/* .content header tag margin and font size properties */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Lead Generation Brand Awareness, Cost Management heading margins and text alignment property */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* h1 seo part of Horiseon webpage title */
 header .seo {
     color: #d9dcd6;
 }
 
+/* hyperlinks in header padding, margin, location, font size and list style properties */
 header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -109,18 +123,6 @@ div.benefit-cost {
     color: #ffffff;
 }
 
-/* .content header tag margin and font size properties */
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Lead Generation Brand Awareness, Cost Management heading margins and text alignment property */
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 /* Lead Generation image on right side of page */
 .benefit-lead img {
     display: block;
@@ -143,24 +145,8 @@ h3 {
 }
 
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+.search-engine-optimization, 
+.online-reputation-management, 
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
