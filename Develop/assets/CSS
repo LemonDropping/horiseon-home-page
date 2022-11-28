@@ -1,1 +1,169 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
+body {
+    background-color: #d9dcd6;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* .content header tag margin and font size properties */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Lead Generation Brand Awareness, Cost Management heading margins and text alignment property */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* h1 seo part of Horiseon webpage title */
+header .seo {
+    color: #d9dcd6;
+}
+
+/* hyperlinks in header padding, margin, location, font size and list style properties */
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+/* displays header hyperlinks on one line and margin property moves them to the right side of the page */
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* hyperlink font color and removes the underline  */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* parahraph tag font size for page */
+p {
+    font-size: 16px;
+}
+/* Main image below header before the content class */
+img.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* search-engine-optimization and social-media-marketing section images. */
+img.float-left {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+}
+
+/* online-repustation-management image. */
+img.float-right {
+    float: right;
+    margin-left: 25px;
+    max-height: 200px;
+}
+
+/* sets margins, display type and width for the content class below .hero image class */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* right side section containinhg font type, margin, padding and location on page */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Lead generation margin and font color */
+div.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Brand Awareness margin and font color */
+div.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Cost Management margin and font color */
+div.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Lead Generation image on right side of page */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Brand Awareness image on right side of page below Lead Generation section */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Cost management image on right side of page below brand awareness section */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+.search-engine-optimization, 
+.online-reputation-management, 
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* footer element padding, text alignment, font type */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* Made with ❤️ by Horiseon font size */
+.footer h2 {
+    font-size: 20px;
+}
